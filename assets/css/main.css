@@ -3513,34 +3513,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
-
-			#banner {
-				padding: 0 ;
-				margin-bottom: -2.5em;
-			}
-
-				#banner .logo {
-					margin: 0 0 2em 0;
-					width : 50px;
-					height : 100px;
-					
-				}
-
-					#banner .logo .icon {
-						font-size: 1.5em;
-					}
-
-				#banner h2 {
-					font-size: 1em;
-				}
-
-				#banner p {
-					font-size: 0.2em;
-					padding-left: 36%;
-				}
-
-		}
+		
 
 		body.is-preload #banner .logo {
 			-moz-transform: translateY(0.5em);
