@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="portfolio.html">Portfolio</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li style="text-align:center"><a href="index.html"> <b>Resume</b></a></li>
+								<li style="text-align:center"><a href="portfolio.html"><b> Portfolio</b></a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>My portfolio</h2>
+								<p>Here you can find some personal projects that I've been working on. You can also find some certifications that I've accomplished</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h2 class="major">Personal projects</h2>
+
+									<section class="features">
+										<article>
+											<a href="https://github.com/firas-akermi/pipeline_wgs" class="image"><img src="images/snakemake.png" alt="" /></a>
+											<h3 class="major">Automated pipeline for the validation of variant calling</h3>
+											<p>I've developped this automated pipeline during my last internship at GCS-SeqOIA. This pipeline evaluates the results of variant calling issued from the analysis of WGS data of patients affected with rare diseases. It has been tested for reproductiblity under more than two computing enviornment</p>
+											<a href="https://github.com/firas-akermi/pipeline_wgs" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://github.com/firas-akermi/dashboard_pipeline_validation_wgs" class="image"><img src="images/dash.png" alt="" /></a>
+											<h3 class="major">Multi-page interactive dashboard developped using dash and plotly.  </h3>
+											<p> This dashboard was created in order to visualize interactively the performance of variant calling. It downloads the csv files,containing the results of the pipeline developped in the previous work, directly, from AWS S3 </p>
+											<a href="https://github.com/firas-akermi/dashboard_pipeline_validation_wgs" class="special">Learn more</a>
+										</article>
+									</section>
+									<section class="features">
+										<article>
+											<a href="https://github.com/firas-akermi/Covid-19-EDA/blob/main/SQLQuery4_covid.sql" class="image"><img src="images/covid19.jpeg" alt="" /></a>
+											<h3 class="major">Exploratory data analysis of the Covid-19 data using SQL</h3>
+											<p>In this project, I used Microsoft SQL Server Management Studio to explore the Covid-19 data retreived from <a href="https://ourworldindata.org/covid-deaths">ourworldindata web site</a></p>
+											<a href="https://github.com/firas-akermi/Covid-19-EDA/blob/main/SQLQuery4_covid.sql" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://public.tableau.com/app/profile/firas.akermi/viz/Covid19_dashboard_16618248883540/Tableaudebord1" class="image"><img src="images/tableau.JPG" alt="" /></a>
+											<h3 class="major">Covid-19 dashboard using Tableau  </h3>
+											<p> The insights collected from the previous EDA were used to create an interactive "Tableau" dashboard  to monitor the covid-19 numbers in the world</p>
+											<a href="https://public.tableau.com/app/profile/firas.akermi/viz/Covid19_dashboard_16618248883540/Tableaudebord1" class="special">Learn more</a>
+										</article>
+									</section>
+									<section class="features">
+										<article>
+											<a href="https://github.com/firas-akermi/StrokePrediction" class="image"><img src="images/stroke.jpg" alt="" /></a>
+											<h3 class="major">Heart stroke prediction using Random Forest algorithm</h3>
+											<p>I used the dataset that I found on <a href="https://www.kaggle.com/"> Kaggle</a> web site to train a random forest model that predicts heart stroke.
+												At first an EDA was performed to gain insight from the data.
+												In a second step, I cleaned the data from missing values and outliers.
+												Next I implemented a Scikit-Learn pipeline to standardize the data, to encode categorical variables and to fit the data to the model.
+												The prediction results for the base model were  0.951, 0.951 and 0.048 for the precision, f1-score and MSE, respectively. 
+												Finally, to enhance the performance of the model I tuned some hyper-parameters by implementing a random search algorithm  and the final results were as following:
+												0.954, 0.954 and 0.045 for the precision, f1-score and MSE, respectively.
+												The tuned model was saved as a pickle file and was used in a later step to develop a streamlit web application that predicts heart stroke probability giving a set of features.
+											</p>
+											<a href="https://github.com/firas-akermi/StrokePrediction" class="special">Learn more</a>
+										</article>
+										
+									</section>
+									<h2 class="major">Certifications</h2>
+									<section class="features">
+										<article>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/CNAN6HCGWWX6" class="image"><img src="images/data.JPG" alt="" /></a>
+											<h3 class="major">Foundations: Data, Data, Everywhere</h3>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/CNAN6HCGWWX6" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/YQVVLARBAHEF" class="image"><img src="images/git.JPG" alt="" /></a>
+											<h3 class="major">Getting Started with Git and GitHub.  </h3>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/YQVVLARBAHEF" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/CYZDQSNSSEJZ" class="image"><img src="images/ml.JPG" alt="" /></a>
+											<h3 class="major">Supervised Machine Learning: Regression and Classification.  </h3>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/CYZDQSNSSEJZ" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/BCCAUKXZ9JZ9" class="image"><img src="images/dl.JPG" alt="" /></a>
+											<h3 class="major">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning  </h3>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/BCCAUKXZ9JZ9" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/LBJLWL29UEAB" class="image"><img src="images/web.JPG" alt="" /></a>
+											<h3 class="major">Introduction to Web Development with HTML, CSS, JavaScript  </h3>
+											<a href="https://www.coursera.org/account/accomplishments/certificate/LBJLWL29UEAB" class="special">Learn more</a>
+										</article>
+									</section>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									09 RUE JULES VALLES <br />
+									91000 EVRY<br/>
+									FRANCE
+								</li>
+								<li class="icon solid fa-phone">(+33) 07 73 32 18 07</li>
+								<li class="icon solid fa-envelope">akermi1996@gmail.com</li>
+								<li class="icon brands fa-linkedin"><a href="http://www.linkedin.com/in/firas-akermi">My linkedin</a></li>
+							</ul>
+							
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
